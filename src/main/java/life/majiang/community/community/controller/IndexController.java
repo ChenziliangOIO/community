@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @since cloud2.0
  */
 
-@Controller
+@Controller//把当前的类作为路由api的一个承载者
 public class IndexController {
 
     @GetMapping("/")
